@@ -1,81 +1,97 @@
-[
-  {
-    "patchName": "Custom branding name YouTube",
-    "options": [
-      {
-        "key": "AppName",
-        "value": "YouTube X"
-      }
-    ]
-  },
-  {
-    "patchName": "Theme",
-    "options": [
-      {
-        "key": "DarkThemeBackgroundColor",
-        "value": "#1f1f1f"
-      },
-      {
-        "key": "darkThemeBackgroundColor",
-        "value": "#1f1f1f"
-      }
-    ]
-  }, 
-  {
-    "patchName": "Custom branding",
-    "options": [
-      {
-        "key": "appName",
-        "value": "YouTube X"
-      },
-      {
-        "key": "iconPath",
-        "value": "logo"
-      }
-    ]
-  },
-  {
-    "patchName": "Spoof client",
-    "options": [
-      {
-        "key": "client-id",
-        "value": "e1toDqv8Jgg9wIqwcS71Eg"
-      }
-    ]
-  },
-  {
-    "patchName": "Custom branding name YouTube Music",
-    "options": [
-      {
-        "key": "AppNameLauncher",
-        "value": "YT Music X"
-      },
-      {
-        "key": "AppNameNotification",
-        "value": "Music X"
-      }
-    ]
-  },
-  {
-    "patchName": "Premium heading",
-    "options": [
-      {
-        "key": "UsePremiumHeading",
-        "value": "YouTube X"
-      }
-    ]
-  },
-  {
+[ {
+    "patchName": "Custom Shorts action buttons",
+    "options" : [ {
+      "key" : "IconType",
+      "value" : "originaloutline"
+    } ]
+  }, {
+    "patchName": "Custom branding name for YouTube",
+    "options" : [ {
+     "key" : "AppName",
+      "value" : "YouTube X"
+    } ]
+  }, {
+    "patchName": "Custom branding name for YouTube Music",
+    "options" : [ {
+     "key" : "AppNameLauncher",
+      "value" : "Music X"
+    } ]
+  }, {
     "patchName": "Custom package name",
-    "options": [
-      {
-        "key": "PackageNameYouTube",
-        "value": "app.rvx.android.youtube"
-      },
-      {
-        "key": "PackageNameYouTubeMusic",
-        "value": "app.rvx.android.apps.youtube.music"
-      }
-    ]
-  }
-]
+    "options" : [ {
+      "key" : "PackageNameYouTube",
+      "value" : "rvx.android.youtube"
+    }, {
+      "key" : "PackageNameYouTubeMusic",
+      "value" : "rvx.android.youtube.music"
+    } ]
+  }, {
+    "patchName": "Settings for YouTube",
+    "options" : [ {
+      "key" : "RVXSettingsMenuName",
+      "value" : "ReVanced eXtended"
+    } ]
+  }, {
+    "patchName": "Settings for YouTube Music",
+    "options" : [ {
+      "key" : "RVXSettingsMenuName",
+      "value" : "ReVanced eXtended"
+    } ]
+  }, {
+    "patchName" : "Custom double tap length",
+    "options" : [ {
+      "key" : "DoubleTapLengthArrays",
+      "value" : "3, 5, 10, 15, 20, 30, 60, 120, 180"
+    } ]
+  }, {
+    "patchName" : "Translations",
+    "options" : [ {
+      "key" : "SelectedAppLanguages",
+      "value" : "ar, id-rID, ja-rJP, ko-rKR"
+    } ]
+  }, {
+    "patchName" : "Theme",
+    "options" : [ {
+      "key" : "DarkThemeBackgroundColor",
+      "value" : "#1f1f1f"
+    }, {
+      "key" : "LightThemeBackgroundColor",
+      "value" : "@android:color/black"
+    } ]
+  }, {
+    "patchName" : "Overlay buttons",
+    "options" : [ {
+      "key" : "IconType",
+      "value" : "rounded"
+    } ]
+  }, {
+    "patchName": "Visual preferences icons",
+    "options": [ {
+      "key" : "ExtendedIcon",
+      "value" : "revanced"
+    } ]
+  }, {
+    "patchName" : "Force snackbar theme",
+    "options" : [ {
+      "key" : "CornerRadius",
+      "value" : "4.0dip"
+    }, {
+      "key" : "BackgroundColor",
+      "value" : "?ytBaseBackground"
+    }, {
+      "key" : "StrokeColor",
+      "value" : "?attr/colorAccent"
+    } ]
+  }, {
+    "patchName" : "Custom branding icon for YouTube",
+    "options" : [ {
+      "key" : "AppIcon",
+      "value" : "mmt"
+    } ]
+  }, {
+    "patchName": "Custom branding icon for YouTube Music",
+    "options" : [ {
+      "key" : "AppIcon",
+      "value" : "mmt_blue"
+    } ]
+} ]
