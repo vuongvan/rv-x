@@ -1,14 +1,14 @@
 enable-magisk-update = false
-patches-version = "v2.227.0-dev.22"
-integrations-version = "v0.154.0-dev.7"
+patches-version = "v2.228.0-dev.1"
+#integrations-version = "v0.154.0-dev.7"
 cli-source = "j-hc/revanced-cli"
 
 [YouTube]
 cli-source = "j-hc/revanced-cli"
 build-mode = "apk"
-included-patches = "'Enable song search' 'MaterialYou' 'Theme' 'Custom branding name YouTube'"
-excluded-patches = "'Custom package name' 'Return YouTube Dislike' 'Custom branding heading' 'Custom branding icon YouTube' 'Alternative thumbnails'"
-version = "19.23.40"
+excluded-patches = "'Custom package name' 'Return YouTube Dislike' 'Custom branding heading' 'Alternative thumbnails' 'Visual preferences icons'"
+included-patches = "'Enable song search' 'MaterialYou' 'Theme' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
+version = "19.05.36"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 arch = "arm64-v8a"
 apkmirror-arch = "arm64-v8a"
