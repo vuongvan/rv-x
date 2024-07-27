@@ -8,7 +8,7 @@ cli-source = "j-hc/revanced-cli"
 build-mode = "apk"
 excluded-patches = "'Custom package name' 'Return YouTube Dislike' 'Custom branding heading' 'Alternative thumbnails' 'Visual preferences icons'"
 included-patches = "'Enable song search' 'MaterialYou' 'Theme' 'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
-version = "19.05.36"
+version = "19.16.39"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 arch = "arm64-v8a"
 apkmirror-arch = "arm64-v8a"
@@ -16,7 +16,7 @@ apkmirror-arch = "arm64-v8a"
 
 [Music]
 cli-source = "j-hc/revanced-cli"
-# enabled = false
+enabled = false
 build-mode = "apk"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
